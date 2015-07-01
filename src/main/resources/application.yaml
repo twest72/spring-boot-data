@@ -1,0 +1,13 @@
+spring:
+  data:
+
+    mongodb:
+      host: 'localhost'
+      port: 27017
+      database: 'user'
+      username: 'user'
+      password: '123'
+
+    elasticsearch:
+      clusterName: abs
+      clusterNodes: 'localhost:9300'
